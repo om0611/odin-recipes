@@ -1,0 +1,44 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: red;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.recipes {
+    position: relative;
+    left: 50px;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-radius: 1em;
+}
+
+h2 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: square;
+    padding: 5px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    font-size: 18px;
+
+}
