@@ -23,6 +23,10 @@ h1 {
     margin: auto;
 }
 
+.empty {
+    min-width: 10px;
+}
+
 .dosa {
     background-color: white;
     width: 360px;
@@ -30,6 +34,7 @@ h1 {
     margin: auto;
     padding: 50px 30px 70px;
     border-radius: 30px;
+    flex: 0 1 auto;
 }
 
 
@@ -49,6 +54,8 @@ h1 {
     margin: auto;
     padding: 50px 30px 70px;
     border-radius: 30px;
+    min-width: fit-content;
+    flex: 0 1 auto;
 }
 
 .maggie .image{
