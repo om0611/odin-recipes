@@ -21,6 +21,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     /* gap: 30px; */
+    flex-wrap: wrap;
 }
 
 .dosa {
@@ -28,6 +29,7 @@ h1 {
     width: 360px;
     height: 450px;
     padding: 50px 30px 70px;
+    margin: 10px;
     border-radius: 30px;
     border: 2px solid black;
     flex-shrink: 0;
@@ -48,6 +50,7 @@ h1 {
     width: 360px;
     height: 450px;
     padding: 50px 30px 70px;
+    margin: 10px;
     border-radius: 30px;
     border: 2px solid black;
     min-width: fit-content;
