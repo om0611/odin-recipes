@@ -19,22 +19,18 @@ h1 {
 
 .recipes {
     display: flex;
-    width: 75%;
-    margin: auto;
-}
-
-.empty {
-    min-width: 10px;
+    justify-content: space-evenly;
+    /* gap: 30px; */
 }
 
 .dosa {
     background-color: white;
     width: 360px;
     height: 450px;
-    margin: auto;
     padding: 50px 30px 70px;
     border-radius: 30px;
-    flex: 0 1 auto;
+    border: 2px solid black;
+    flex-shrink: 0;
 }
 
 
@@ -51,11 +47,11 @@ h1 {
     background-color: white;
     width: 360px;
     height: 450px;
-    margin: auto;
     padding: 50px 30px 70px;
     border-radius: 30px;
+    border: 2px solid black;
     min-width: fit-content;
-    flex: 0 1 auto;
+    flex-shrink: 0;
 }
 
 .maggie .image{
